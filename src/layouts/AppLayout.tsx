@@ -1,17 +1,11 @@
-import React, {Component, Fragment} from "react";
-import NavComponent from "../components/NavComponent";
-import FooterComponent from "../components/FooterComponent";
+import React, {Component} from "react";
 
 class AppLayout extends Component {
     render() {
         return(
-            <Fragment>
-                <NavComponent/>
-                <div className={"container-fluid"}>
-                    {this.props.children}
-                </div>
-                <FooterComponent/>
-            </Fragment>
+            <div>
+                <h1>React-Redux Boilerplate</h1>
+            </div>
         )
     }
 }
