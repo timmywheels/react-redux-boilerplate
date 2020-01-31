@@ -9,6 +9,8 @@ import reduxThunk from 'redux-thunk';
 import { composeWithDevTools } from "redux-devtools-extension";
 import * as serviceWorker from './serviceWorker';
 import reducers from './reducers';
+import 'bootstrap/dist/css/bootstrap.css';
+import './assets/css/styles.css';
 
 const composeEnhancers = composeWithDevTools({
     trace: true
